@@ -1,0 +1,37 @@
+.container-contato{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid black;    
+}
+/*Formularios*/
+.container-form{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.container-form ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-form li{
+    padding: 20px;
+}
+
+.img-form{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-form img{
+display: flex;
+flex-wrap: wrap;
+}

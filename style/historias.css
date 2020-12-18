@@ -1,0 +1,126 @@
+.capa img{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.monsters {
+    flex-wrap: wrap;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.monsters h1{
+    font-size: 4em;
+}
+
+.cabecalho-mosnter {
+    background: black;
+    flex-wrap: wrap;
+    font-size: 2em;
+    color: beige;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.monster01{
+    max-width: 960px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.monster01 img{
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+.monster02{
+    max-width: 960px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.monster02 img{
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+/*layout*/
+.flex-layout{
+    display: flex;
+    font-size: 2em;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.flex-layout > div{
+    flex:  1 1 300px;
+}
+
+.flex-layout ul li{
+    padding: 5px;
+}
+
+.flex-layout li:hover{
+    background-color: #1111;
+    cursor: pointer;
+}
+
+.flex-layout a{
+    color: black;
+}
+
+.flex-layout a:hover{
+    color: black;
+    cursor: pointer;
+}
+/*videos*/
+
+.video {
+    flex-wrap: wrap;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.video h1{
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.videos-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.videos-section > div{
+    flex:  1 1 200px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.videos-section p {
+    font-size: 2em;
+    flex-wrap: wrap;
+}
+
+.cabecalho-videos {
+    background: black;
+    flex-wrap: wrap;
+    font-size: 2em;
+    color: beige;
+    padding: 10px;
+    flex-wrap: wrap;
+}
