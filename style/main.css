@@ -30,8 +30,20 @@ img{
 .background-header{
     background: black
 }
+.menu-mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm-line{
+    height: 5px;
+    background-color: #ffffff;
+}
 .menu{
-    max-width: 960;
+    max-width: 960px;
     margin: 0 auto;
     padding: 15px 0;
     display: flex;
@@ -72,7 +84,7 @@ img{
     line-height: 1;
     max-width: 960px;
     margin: 0 auto;
-    padding: 60px 10px;
+    padding: 140px 20px 20px ;
     text-align: center;
     border-bottom: 3px solid black;
 
@@ -119,7 +131,7 @@ img{
 .curiosidade{
     max-width: 960px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
@@ -158,8 +170,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    margin-bottom: 400px;
-    margin-top: 100px;
+
     flex-wrap: wrap;
 }
 

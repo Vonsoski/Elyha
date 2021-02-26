@@ -1,0 +1,56 @@
+/*INDEX MENU E CONTAINER*/
+
+@media (max-width: 650px) {
+  /*INDEX*/
+
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    height: 140px;
+    justify-content: center;
+  }
+  nav ul {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: black;
+  }
+
+  .img-lado {
+    width: 400px;
+  }
+  .img-draw {
+    width: 400px;
+  }
+  .img-capitao {
+    width: 500px;
+  }
+}
+
+/*historias*/
+@media (max-width: 650px) {
+  .curiosidades {
+    margin: 0;
+    padding: 0;
+  }
+  .capa{
+      display: none;
+  }
+  .menu-logo a img{
+      width: 50px;
+  }
+  .flex-layout ul li{
+      font-size: 25px;
+  }
+  /* sobre o mundo*/
+  .container-contato{
+      padding: 15px;
+  }
+}

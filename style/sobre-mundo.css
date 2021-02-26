@@ -1,11 +1,11 @@
 
 /*titulo*/
 .titulo-info{
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 60px 0;
-    display: flex;
-    flex-wrap: wrap;
+        font-size: 1em;
+        margin: 0 auto;
+        padding: 140px 20px 20px ;
+        text-align: center;
+        border-bottom: 3px solid black;
 }
 
 .titulo-info h1{
